@@ -1,0 +1,18 @@
+Step 1-> First run the Eureka Server from PhotoAppDiscoveryService1
+Step 2->In Browser http:/RUN/localhost:8010/
+
+Step 3 -> Then Run Client as PhotoappApiUsers1s
+Then step 2 -Instances currently registered with Eureka
+	USERS-WS	n/a (1)	(1)	UP (1) - host.docker.internal:users-ws:0
+
+Step 4 -> Click on the Staus as below link wil open in browser	
+UP (1) - host.docker.internal:users-ws:0
+
+Step 5-> Modify the Browser
+http://host.docker.internal:51551/users/status/check
+Response- Welcome User Microservice
+0r
+
+http://localhost:51551/users/status/check
+Response- Welcome User Microservice
+
