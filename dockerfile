@@ -8,7 +8,7 @@ ARG JAR_FILE=target/PhotoAppApiUsers1-0.0.1-SNAPSHOT.jar
 WORKDIR /opt/app
 
 # cp target/PhotoAppApiUsers1-0.0.1-SNAPSHOT.jar/opt/app/userclient.jar
-COPY ${JAR_FILE} app.jar
+COPY ${JAR_FILE} userclient.jar
 
 # java -jar /opt/app/userclient.jar
 ENTRYPOINT ["java","-jar","userclient.jar"]
